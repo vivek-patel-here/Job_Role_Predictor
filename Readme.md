@@ -40,7 +40,7 @@ Return Output
 ```
 
 *Dataset Used :*
-- Update resume dataset  &nbsp; [https://www.kaggle.com/datasets/jillanisofttech/updated-resume-dataset]
+- Updated resume dataset  &nbsp; [https://www.kaggle.com/datasets/jillanisofttech/updated-resume-dataset]
 - Dataset Feild : ["role","resume"]
 
 *ML model used :*
