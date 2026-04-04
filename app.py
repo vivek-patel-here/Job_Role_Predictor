@@ -1,8 +1,14 @@
 from flask import Flask, request,jsonify
+from flask_cors import CORS
 import pickle
 import re
 
 app = Flask(__name__)
+CORS(app, origins=[
+    "http://localhost:3000",
+    "https://your-frontend.com"
+])
+
 
 model = pickle.load(open("model/model.pkl", "rb"))
 le = pickle.load(open("data/processed/label_encoder.pkl", "rb"))
