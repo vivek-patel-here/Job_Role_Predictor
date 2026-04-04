@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:3000",
-    "https://your-frontend.com"
+    "https://job-role-predictor.vercel.app/"
 ])
 
 
